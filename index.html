@@ -79,7 +79,14 @@
     <link rel="shortcut icon" href="../assets/ico/favicon.png">-->
 </head>
 
-<body>
+<body><div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="container-narrow">
 
@@ -92,6 +99,7 @@
         <h3 class="muted">Барселона/Андорра, 2-е &mdash; 9-е Февраля 2013</h3>
         <p>Автор: <a href="https://www.facebook.com/crocodile2u" target="_blank">Виктор Большов (crocodile2u)</a></p>
         <p>13 Февраля 2013 года</p>
+        <p><div class="fb-like" data-href="http://crocodile2u.github.com/barcelona-andorra-2013/" data-send="true" data-width="450" data-show-faces="true"></div></p>
     </div>
 
     <hr>
